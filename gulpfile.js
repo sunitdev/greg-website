@@ -8,6 +8,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const bs = require("browser-sync").create();
 const rimraf = require("rimraf");
 const comments = require("gulp-header-comment");
+const through2 = require("through2");
 
 var path = {
   src: {
